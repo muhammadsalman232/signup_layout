@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SignUp_Layout</string>
+    <string name="txt_world">Explore the world easily</string>
+    <string name="next_btn">Move next activity</string>
+    <string name="txt_travello">Travello</string>
+    <string name="txt_desire"> To your desire</string>
+    <string name="txt_welcome">Welcome to Home</string>
+    <string name="txt_spot">Reach the unknown spot</string>
+    <string name="txt_welcome_back">Welcome Back</string>
+    <string name="txt_access_account">sign in access your account</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="cb_remember_me">Remember me</string>
+    <string name="txt_forget_password">Forget Password?</string>
+    <string name="btn_next">Next</string>
+    <string name="txt_register">Register now </string>
+    <string name="txt_member">New member?</string>
+    <string name="txt_make_connects_with_travello">Make connects with Travello</string>
+    <string name="code_button">Code Button</string>
+</resources>
