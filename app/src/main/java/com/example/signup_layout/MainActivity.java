@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class); // that is used to move one activity to second activity
                 startActivity(intent);
             }
         });
