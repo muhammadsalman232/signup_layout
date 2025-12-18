@@ -18,7 +18,7 @@ public class FourthActivity extends AppCompatActivity {
         next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(FourthActivity.this, FifthActivity.class);
+                Intent intent = new Intent(FourthActivity.this, FifthActivity.class); // move one file to another
                 startActivity(intent);
             }
         });
