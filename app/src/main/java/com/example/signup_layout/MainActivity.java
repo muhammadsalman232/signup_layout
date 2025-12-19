@@ -30,35 +30,16 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.second_activity);
         next_btn = findViewById(R.id.next_btn);
-        next_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class); // that is used to move one activity to second activity
-                startActivity(intent);
-            }
+        next_btn.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SecondActivity.class); // that is used to move one activity to second activity
+            startActivity(intent);
         });
+
       //     String text = "Please enter the 6-digit code sent to your email  <font color = '#FF0000'> salmanrasheed232@gmail.com</font> for verification";
        //   txt_verification.setText(Html.fromHtml(text));
         // String text = "By checking the box you agree to our Terms and Conditions";
 
         //  SpannableString spannable = new SpannableString(text);
 
-// Terms ko red
-        //  spannable.setSpan(
-        //       new ForegroundColorSpan(Color.RED),
-        //  text.indexOf("Terms"),
-        //  text.indexOf("Terms") + "Terms".length(),
-        //  Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
-        //  );
-
-// Conditions ko red
-        //     spannable.setSpan(
-        //      new ForegroundColorSpan(Color.RED),
-        // text.indexOf("Conditions"),
-        //    text.indexOf("Conditions") + "Conditions".length(),
-        //    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
-        //    );
-
-        //  cb_term.setText(spannable);
     }
 }
