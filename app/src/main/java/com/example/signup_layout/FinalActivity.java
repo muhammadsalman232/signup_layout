@@ -1,4 +1,4 @@
-package com.example.signup_layout;
+package com.demo.travelapp;
 
 import android.os.Bundle;
 

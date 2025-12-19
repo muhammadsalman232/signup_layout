@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.signup_layout"
+    namespace = " com.demo.travelapp;"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.signup_layout"
+        applicationId = " com.demo.travelapp;"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

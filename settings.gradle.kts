@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SignUp_Layout"
+rootProject.name = "travel_app"
 include(":app")
  
